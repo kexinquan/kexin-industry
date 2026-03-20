@@ -1,6 +1,6 @@
 cv:
   name: Kexin Quan
-  label: PhD Candidate | Product & AI/ML
+  label: PhD Candidate
   email: kq4@illinois.edu
   location: Champaign, IL
   image: ""
@@ -27,7 +27,7 @@ cv:
         start_date: 2023
         end_date: now
         highlights:
-          - "Focus: AI/ML Product Development, Experimentation, Human-AI Interaction"
+          - "Focus: Human-Computer Interaction, AI/ML System Design & Development, Empirical Study, Experimentation"
 
       - institution: University of California, San Diego
         location: San Diego, CA
@@ -53,7 +53,7 @@ cv:
       - name: Product & Strategy
         level: Expert
         icon: fa-solid fa-lightbulb
-        keywords: "Product Roadmaps, PRDs, User Stories, Success Metrics, OKRs, Go-to-Market"
+        keywords: "Product Roadmaps, PRDs, User Stories, Success Metrics, OKRs"
 
       - name: Data & Experimentation
         level: Expert
@@ -70,6 +70,11 @@ cv:
         icon: fa-solid fa-chart-bar
         keywords: "Tableau, Plotly, Matplotlib, Seaborn, Data Storytelling"
 
+      - name: AI-Assisted Development
+        level: Advanced
+        icon: fa-solid fa-robot
+        keywords: "Cursor, Claude Code, GitHub Copilot, ChatGPT, Prompt Engineering, LLM APIs"
+
       - name: Tools & Platforms
         level: Advanced
         icon: fa-solid fa-tools
@@ -78,38 +83,34 @@ cv:
     Experience:
       - company: UIUC School of Information Sciences
         position: Graduate Research Assistant
+        location: Champaign, IL
         start_date: 2023
         end_date: now
         highlights:
           - "Led development of AI-powered decision support tools, defining product requirements and success metrics"
-          - "Designed and executed controlled experiments (100+ participants) to measure product impact"
-          - "Collaborated cross-functionally with Engineering, Design, and Data Science teams"
-          - "Published 10+ papers at top venues (CHI, C&C, UIST) on AI product effectiveness"
+          - "Designed and executed controlled experiments (100+ participants) to measure system impact"
+          - "Collaborated cross-functionally with students specialized in Engineering, Design, and Data Science fields"
+          - "Published 10+ papers at top venues (CHI, C&C, UIST) on AI/HCI product effectiveness"
 
-      - company: UC San Diego Design Lab
+      - company: The Design Lab
         position: Research Assistant
+        location: San Diego, CA
         start_date: 2019
         end_date: 2023
         highlights:
-          - "Built creativity support tools deployed to 1000+ users, iterating based on user feedback"
+          - "Built creativity support tools deployed to 80+ users, iterating based on user feedback"
           - "Defined metrics and analyzed user behavior data to drive product improvements"
           - "Partnered with cross-functional teams to ship multiple product features"
 
-    Leadership:
-      - company: ACM Creativity & Cognition (C&C) 2026
-        position: Publication Chair
-        start_date: 2026
-        end_date: 2026
-
-      - company: ACM CHI, C&C, DIS, CUI
-        position: Reviewer (15+ papers)
-        start_date: 2023
-        end_date: 2026
-
-      - company: San Diego Design Workshop
-        position: Workshop Organizer
-        start_date: 2021
-        end_date: 2021
+      - company: Axos Bank
+        position: Data Analyst Intern
+        location: San Diego, CA
+        start_date: 2021-05
+        end_date: 2021-08
+        highlights:
+          - "Built real-time deposit monitoring dashboard (SQL, Python, Excel) to track consumer metrics across product lines, enabling data-driven decisions for deposit strategy team"
+          - "Analyzed overdraft patterns and developed targeted intervention reports, reducing overdraft incidence among 60% of business banking customers"
+          - "Automated manual review workflows through process optimization, cutting review workload by 5.7% and generating $23K additional annual revenue"
 
     Languages:
       - name: English
@@ -117,8 +118,3 @@ cv:
 
       - name: Chinese (Mandarin)
         summary: "Native speaker"
-
-    Interests:
-      - name: Focus Areas
-        icon: fa-solid fa-rocket
-        keywords: "Ad Measurement Products, Experimentation Platforms, AI/ML Products, User Analytics, Growth"

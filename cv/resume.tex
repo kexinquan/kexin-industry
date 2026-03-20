@@ -19,7 +19,6 @@
 \setlength{\parindent}{0in}
 
 \usepackage[shortlabels]{enumitem}
-\usepackage{qrcode}
 
 \makeatletter
 \newlength{\bibhang}
@@ -125,17 +124,18 @@
 % \rule{\columnwidth}{1.2pt}
 \begin{center}
     \textbf{\Huge \scshape Kexin Quan} \\ \vspace{6pt}
-    \href{mailto:kq4@illinois.edu}{\underline{kq4@illinois.edu \qrcode[height=1cm]{mailto:kq4@illinois.edu}}} $|$ 
-    % \href{https://www.linkedin.com/in/kexinquan/}{\underline{LinkedIn}}$|$ 
-    \href{https://scholar.google.com/citations?user=XrAI6c8AAAAJ&hl=en}{\underline{Google Scholar \qrcode[height=1cm]{https://scholar.google.com/citations?user=XrAI6c8AAAAJ&hl=en}}} $|$ 
-    \href{https://www.kexinquan.com/}{\underline{Personal Website \qrcode[height=1cm]{https://www.kexinquan.com/}}}
-    
+    \href{mailto:kq4@illinois.edu}{\underline{kq4@illinois.edu}} $|$
+    \href{https://www.linkedin.com/in/kexinquan/}{\underline{LinkedIn}} $|$
+    \href{https://scholar.google.com/citations?user=XrAI6c8AAAAJ&hl=en}{\underline{Google Scholar}} $|$
+    \href{https://www.kexinquan.com/}{\underline{kexinquan.com}} \\
+    \vspace{3pt}
+    \textbf{Availability: May--August 2026}
 \end{center}
 \end{minipage}}
 
-\section{Research Interest}
+\section{Focus}
 
-My research develops brain-inspired, affective, and agentic AI systems that augment human sensemaking and agency. I design socially intelligent, multi-agent systems that model cognition and emotion as distributed, interactive processes, enabling adaptive decision-making, reflective reasoning, and emotionally grounded human-AI collaboration in complex, information-rich environments.
+Building experimentation and measurement products that help users understand their true business value. I design AI-powered systems with rigorous A/B testing, define success metrics, and partner with cross-functional teams (Engineering, Design, Data Science) to ship data-driven products. Published 10+ papers at CHI/C\&C on product effectiveness and user behavior measurement.
 
  \section{Education}
 
@@ -218,157 +218,70 @@ University of California, San Diego
 
 \section{Research Experience}
 
-
-\textbf{Research Assistant},
-\href{https://acl.gov/aging-and-disability-in-america/data-and-research/nidilrr-publications-and-resources}{Funded by NIDILRR}
-\hfill {Sep 2024--present}\\
-Supervised by \href{https://www.ahs.illinois.edu/chiu}{Prof. Chung-yi Chiu}, \href{https://czhai.cs.illinois.edu/}{ChengXiang Zhai}, and \href{https://jessiechinlab.ischool.illinois.edu/}{Jessie Chin}
+\textbf{Graduate Research Assistant},
+{UIUC School of Information Sciences}
+\hfill {July 2023--present}
 \begin{innerlist}
-\item Led the design and implementation of an agentic, multi-agent conversational framework grounded in cognitive architectures (ACT-R) to support adaptive health behavior change. Developed real-time, context-aware prototypes that orchestrate specialized agents for user modeling, dialogue planning, feedback generation, integrating generative AI to enhance self-efficacy and sustained engagement.
+\item Led end-to-end development of AI-powered decision support products: defined product requirements, wrote technical specs, set success metrics, and shipped to 100+ users across multiple studies.
 
-\item Designed personalized multi-agent dialogue strategies informed by motivational theory and behavior change models. Built empathetic, multi-voiced conversational agents that dynamically coordinate communication style, intervention timing, and feedback based on users’ behavioral states and interaction signals, validated through human-subject studies.
-\end{innerlist}
-\vspace{0.2cm}
+\item Designed and executed controlled experiments (A/B tests, within-subject designs) with 100+ participants to measure product impact on user behavior, analyzing results to inform product strategy and iteration.
 
-\textbf{Research Assistant},
-{UIUC ACTION Lab}
-\hfill {July 2023--present}\\
-Supervised by \href{https://jessiechinlab.ischool.illinois.edu/}{Prof. Jessie Chin}
-\begin{innerlist}
-\item Currently developing Mental Worlds, a brain-inspired generative architecture that models inner–outer world coupling to operationalize emotion as an internal regulatory process and examine how structured affective dynamics support reflective reasoning and emotionally grounded HAI collaboration.
+\item Collaborated cross-functionally with Engineering, Design, and Data Science teams to develop, test, and launch 3 AI products, including a multi-agent ideation platform and a decision-support assistant.
 
-\item Investigate how humans and AI agents jointly construct, distribute, and regulate cognition across ideation and decision processes, focusing on how feedback, representation, and social framing shape adaptive reasoning and shared understanding.
-
-\item Led SERA, a self-regulatory decision-making assistant grounded in Fuzzy-Trace Theory that examines how gist- and verbatim-based AI feedback influence users’ information sampling and confidence \ref{sera}, and MultiColleagues, a multi-agent ideation platform that leverages role-based AI collaboration to study distributed creativity and collective sense-making \ref{multicolleagues}.
-
-\end{innerlist}
-\vspace{0.2cm}
-
-% \pagebreak
-\textbf{Research Assistant},
-{Temple HCI Lab}
-\hfill {Mar 2022--Sep 2023}\\
-Supervised by \href{http://stevemacn.github.io/}{Prof. Stephen MacNeil}
-\begin{innerlist}
-\item Investigated how designers construct and navigate conceptual representations to support systems thinking and creative problem-solving across complex design contexts.
-\item Designed and evaluated \textit{CausalMapper}, an LLM-enhanced web-based creativity support tool that scaffolds causal reasoning and exploration, leading to a C\&C ’23 Demo paper \ref{causalmapper}.
-
+\item Defined success metrics and analyzed data to drive product prioritization---measured engagement, task completion, and user satisfaction using SQL, Python, and statistical modeling.
 \end{innerlist}
 \vspace{0.2cm}
 
 \textbf{Visiting Research Intern},
 {Cornell DesignAI Group}
-\hfill {Mar 2022--Sep 2022}\\
-Supervised by \href{https://qianyang.co/}{Prof. Qian Yang}
+\hfill {Mar 2022--Sep 2022}
 \begin{innerlist}
-\item Developed a clinical decision-support tool that integrates biomedical literature with AI-recommended treatments based on patient symptoms, aiming to calibrate clinicians’ trust in AI suggestions.
-\item Conducted iterative prototyping and evaluated designs through clinician interviews, contributing the findings to a CHI '23 full paper as a co-second author \ref{calibrate_trust}.
+\item Built and shipped a clinical decision-support product integrating AI recommendations with biomedical literature to help clinicians evaluate treatment options.
+\item Conducted user research through clinician interviews to validate product-market fit and iterate on UX, contributing to a CHI'23 full paper \ref{calibrate_trust}.
+\item Wrote product requirements and technical specs for development team, coordinating design iterations across stakeholders.
 \end{innerlist}
-
 \vspace{0.2cm}
-
 
 \textbf{Research Assistant},
 {UCSD Design Lab}
-\hfill {Apr 2020--Aug 2021}\\
-Supervised by \href{https://spdow.ucsd.edu/}{Prof. Steven Dow} and \href{http://stevemacn.github.io/}{Prof. Stephen MacNeil} 
+\hfill {Apr 2020--Aug 2021}
 \begin{innerlist}
-\item Developed a real-time data pipeline to construct a network map in ConceptNet by decomposing and connecting {\raise.17ex\hbox{$\scriptstyle\sim$}}300 users’ unstructured problems based on shared key features using NLP tool-kits.
-\item Created creativity-support systems with computation models that automatically clustered and visualized user-generated problems to scaffold design novices as they worked on creative tasks, advanced understanding of design guidance mechanisms and resulted in C\&C'21 \ref{problib} and UIST'21 \ref{probmap} papers.
-\end{innerlist}
-\vspace{0.3cm}
-
-
-\textbf{Visiting Research Assistant},
-{Tsinghua University, The Future Lab}
-\hfill {July--Oct 2019}\\
-Supervised by \href{https://www.enad.tsinghua.edu.cn/info/1027/1334.htm}{Prof. Yingqing Xu}
-\begin{innerlist}
-\item Designed and evaluated emotion-sensitive virtual agents, conducting semi-structured interviews with 30 participants and mixed-method analysis of affective and behavioral responses, contributing to a \href{https://dl.acm.org/doi/10.1145/3411763.3451660}{CHI EA'21 publication}.
-
-\item Collected, processed, and visualized multimodal user data from $\sim$80 participants in Python using wearable and instrumented devices, including physiological signals (e.g., heart rate, blood pressure) and behavioral interaction signals (e.g., mouse-click pressure), to quantify emotion-related patterns for adaptive, real-time interaction.
+\item Built real-time data pipeline processing 300+ users' unstructured inputs using NLP to enable feature extraction and semantic clustering for product personalization.
+\item Developed creativity-support tools deployed to 80+ users, iterating based on user feedback and behavioral analytics (C\&C'21 \ref{problib}, UIST'21 \ref{probmap}).
+\item Defined metrics and analyzed user behavior data to drive product improvements and validate design decisions.
 \end{innerlist}
 
-\section{Professional  Experience}
+\section{Industry Experience}
 \textbf{Data Analyst Intern},
-{AXOS Bank, San Diego, CA}
-\vspace{0.1cm}
+{Axos Bank, San Diego, CA}
 \hfill{May--Aug 2021}
 \begin{innerlist}
-\item Designed and deployed a real-time interactive dashboard utilizing SQL, Excel, and Python for the comprehensive monitoring of consumer deposit metrics. 
-\item Created insightful reports and executed strategic plans that significantly reduced the incidence of overdrafting among 60\% of business banking customers.
-\item Implemented efficiency-enhancing measures that reduced the manual review workload by 5.7\% and contributed to a \$23,000 increase in annual revenue.
+\item Built measurement dashboard (SQL, Python, Excel) to track consumer deposit metrics across product lines in real-time, enabling data-driven decisions for deposit strategy team.
+\item Analyzed user behavior patterns to identify overdraft risk factors; developed targeted intervention strategy that reduced overdraft incidence among 60\% of business banking customers.
+\item Defined success metrics and measured impact: automated review workflows, cutting manual workload by 5.7\% and generating \$23K additional annual revenue.
 \end{innerlist}
 
 
 \section{Skills}
 
-\textbf{Programming Languages:}{ Python, R, Javascript, \LaTeX, MATLAB, SQL, Java}
+\textbf{Product \& Strategy:}{ Product Roadmaps, PRDs, Technical Specs, Success Metrics, A/B Testing Design, User Research}
+
+\textbf{Data \& Experimentation:}{ SQL, Python, R, Statistical Analysis, Causal Inference, Hypothesis Testing, Pandas}
+
+\textbf{ML \& Analytics:}{ TensorFlow, PyTorch, scikit-learn, NLP (spaCy, NLTK), LLM APIs (OpenAI, Claude)}
+
+\textbf{Visualization:}{ Tableau, Plotly, Matplotlib, Seaborn, Data Storytelling}
+
+\textbf{Tools:}{ Figma, Miro, Firebase, Git, React.js, Cursor, Claude Code, GitHub Copilot}
 
 
-\textbf{Machine Learning\&NLP:}{ pyTorch, TensorFlow, scikitlearn, NLTK, OpenAI, pandas, spaCy, TextBlob}
+\section{Leadership \& Service}
 
+\textbf{Publication Chair}, ACM Creativity \& Cognition (C\&C) 2026 --- Led cross-functional coordination for conference proceedings
 
-\textbf{Visualization Tools:}{ Matplotlib, Seaborn, ggplot2, Plotly, Tableau, Excel}
+\textbf{Reviewer}, ACM CHI, C\&C (15+ papers) \hfill{2024--2026}
 
-
-\textbf{Fullstack:}{ Git, React.js, Flask, HTML, CSS, Firebase, Figma, Miro, Heroku}
-
-
-\section{Mentorship}
-\textbf{Mentored Students}
-\hfill {2024-present}
-\begin{innerlist}
-
-\item \href{https://carolzhangzz.github.io/}{Qinshi Zhang}: Master student, Computer Science (UCSD)
-\item \href{http://jiayeyong.com/}{Jiaye Yong}: Undergraduate student, Computer Science (UIUC)
-\item \href{https://www.linkedin.com/in/rachel-cheung-is/}{Rachel Cheung}: Undergraduate student, ISchool (UIUC)
-\item \href{https://www.linkedin.com/in/pavithramakrishnan/}{Pavithra Ramakrishnan}: Undergraduate student, ISchool (UIUC)
-
-\end{innerlist}
-
-
-\section{Teaching Experience}
-
-\textbf{Teaching Assistant}, 
-{UIUC}
-\hfill {2024}
-\vspace{0.1cm}
-\begin{innerlist}
-\item IS504: Sociotechnical Information Systems (class size: 100) 
-
-\end{innerlist}
-
-\textbf{Undergrad Teaching Assistant}, 
-{UCSD}
-\hfill {2020--2021}
-
-\begin{innerlist}
-\item COGS189: Brain Computer Interfaces (class size: 50)
-\item COGS14A: Introduction to Research Methods (class size: 50)
-\end{innerlist}
-
-
-\section{Academic Service}
-
-\textbf{Program Committee Member} \\
-ACM Creativity \& Cognition (C\&C), {Publication Chair}
-\hfill{2026}
-\vspace{0.2cm}
-
-\textbf{Reviewer (15+ papers)} \\
-ACM Creativity \& Cognition (C\&C) \hfill{2025, 2026}\\
-ACM CHI Full Paper, Poster \hfill{2024, 2025, 2026}\\
-
-\textbf{San Diego Design Workshop (SDDW)}, 
-{Organizer}
-\hfill{2021}
-\vspace{0.2cm}
-
-\textbf{Design for San Diego (D4SD) Community Design Jam}, 
-{Coordinator}
-\hfill{2020}
-\vspace{0.2cm}
+\textbf{Mentor}, 4 undergraduate/master students on AI product research projects \hfill{2024--present}
 
 
 

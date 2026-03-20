@@ -34,6 +34,7 @@ My work sits at the intersection of **AI/ML product development** and **human-ce
 I bring strong skills in **experimentation design**, **data analysis**, and **cross-functional collaboration** — working with engineering, design, and data science teams to ship products that reach millions of users.
 
 **Core Competencies:**
+
 - Product Strategy & Roadmap Development
 - Experimentation & A/B Testing Design
 - Data Analysis & Metrics Definition
@@ -42,13 +43,16 @@ I bring strong skills in **experimentation design**, **data analysis**, and **cr
 - AI/ML Product Development
 
 **Technical Skills:**
+
 - **Languages:** Python, R, SQL, JavaScript
 - **Data & ML:** Pandas, Scikit-learn, TensorFlow, Statistical Modeling
 - **Visualization:** Tableau, Plotly, Matplotlib, Seaborn
+- **AI-Assisted Dev:** Cursor, Claude Code, GitHub Copilot, Prompt Engineering, LLM APIs
 - **Product:** Figma, Miro, Firebase, A/B Testing Frameworks
 
 **Highlights:**
+
 - **10+ peer-reviewed publications** at CHI, C&C, and UIST
 - Led cross-functional research teams across Design, Engineering, and Data Science
 - Designed and ran controlled experiments with 100+ participants
-- Built AI-powered tools deployed to thousands of users
+- Built AI-powered tools deployed to hundreds of users
