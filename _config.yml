@@ -7,7 +7,7 @@ first_name: Kexin
 middle_name:
 last_name: Quan
 contact_note: >
-  Open to Product Manager internship opportunities for 2026.
+  Open to Industry internship opportunities for 2026.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   PhD Candidate at UIUC. Building AI/ML products with measurable impact. Expertise in experimentation, data analysis, and cross-functional collaboration.
 footer_text: >
@@ -669,5 +669,3 @@ jsonresume:
   - languages
   - interests
   - references
-
-
