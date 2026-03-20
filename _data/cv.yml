@@ -1,0 +1,124 @@
+cv:
+  name: Kexin Quan
+  label: PhD Candidate | Product & AI/ML
+  email: kq4@illinois.edu
+  location: Champaign, IL
+  image: ""
+  social_networks:
+    - network: LinkedIn
+      username: kexinquan
+    - network: Google Scholar
+      username: XrAI6c8AAAAJ
+
+  address:
+    street: School of Information Sciences
+    city: Champaign
+    region: Illinois
+    postalCode: IL 61820
+    countryCode: US
+
+  sections:
+    Education:
+      - institution: University of Illinois Urbana-Champaign
+        location: Champaign, IL
+        url: https://ischool.illinois.edu/
+        area: Information Sciences
+        studyType: Ph.D. Candidate
+        start_date: 2023
+        end_date: now
+        highlights:
+          - "Focus: AI/ML Product Development, Experimentation, Human-AI Interaction"
+
+      - institution: University of California, San Diego
+        location: San Diego, CA
+        url: https://ucsd.edu/
+        area: Electrical & Computer Engineering
+        studyType: M.S.
+        start_date: 2021
+        end_date: 2023
+        highlights:
+          - "Machine Learning, Data Science, Statistical Modeling"
+
+      - institution: University of California, San Diego
+        location: San Diego, CA
+        url: https://ucsd.edu/
+        area: Cognitive Science
+        studyType: B.S.
+        start_date: 2017
+        end_date: 2021
+        highlights:
+          - "Specialization in Machine Learning & Neural Computation"
+
+    Skills:
+      - name: Product & Strategy
+        level: Expert
+        icon: fa-solid fa-lightbulb
+        keywords: "Product Roadmaps, PRDs, User Stories, Success Metrics, OKRs, Go-to-Market"
+
+      - name: Data & Experimentation
+        level: Expert
+        icon: fa-solid fa-chart-line
+        keywords: "A/B Testing, Causal Inference, SQL, Statistical Analysis, Hypothesis Testing"
+
+      - name: Programming & ML
+        level: Expert
+        icon: fa-solid fa-code
+        keywords: "Python, R, SQL, TensorFlow, PyTorch, scikit-learn, pandas"
+
+      - name: Visualization & Analytics
+        level: Advanced
+        icon: fa-solid fa-chart-bar
+        keywords: "Tableau, Plotly, Matplotlib, Seaborn, Data Storytelling"
+
+      - name: Tools & Platforms
+        level: Advanced
+        icon: fa-solid fa-tools
+        keywords: "Figma, Miro, Firebase, Git, React.js, Flask, Heroku"
+
+    Experience:
+      - company: UIUC School of Information Sciences
+        position: Graduate Research Assistant
+        start_date: 2023
+        end_date: now
+        highlights:
+          - "Led development of AI-powered decision support tools, defining product requirements and success metrics"
+          - "Designed and executed controlled experiments (100+ participants) to measure product impact"
+          - "Collaborated cross-functionally with Engineering, Design, and Data Science teams"
+          - "Published 10+ papers at top venues (CHI, C&C, UIST) on AI product effectiveness"
+
+      - company: UC San Diego Design Lab
+        position: Research Assistant
+        start_date: 2019
+        end_date: 2023
+        highlights:
+          - "Built creativity support tools deployed to 1000+ users, iterating based on user feedback"
+          - "Defined metrics and analyzed user behavior data to drive product improvements"
+          - "Partnered with cross-functional teams to ship multiple product features"
+
+    Leadership:
+      - company: ACM Creativity & Cognition (C&C) 2026
+        position: Publication Chair
+        start_date: 2026
+        end_date: 2026
+
+      - company: ACM CHI, C&C, DIS, CUI
+        position: Reviewer (15+ papers)
+        start_date: 2023
+        end_date: 2026
+
+      - company: San Diego Design Workshop
+        position: Workshop Organizer
+        start_date: 2021
+        end_date: 2021
+
+    Languages:
+      - name: English
+        summary: "Fluent"
+
+      - name: Chinese (Mandarin)
+        summary: "Native speaker"
+
+    Interests:
+      - name: Focus Areas
+        icon: fa-solid fa-rocket
+        keywords: "Ad Measurement Products, Experimentation Platforms, AI/ML Products, User Analytics, Growth"
