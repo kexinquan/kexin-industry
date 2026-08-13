@@ -24,13 +24,6 @@ ninja.data = [{
             window.location.href = "/kexin-industry/cv/";
           },
         },{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/kexin-industry/assets/pdf/cv.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
