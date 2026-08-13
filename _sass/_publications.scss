@@ -44,6 +44,12 @@
       }
 
       .abbr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .abbr {
         margin-bottom: 0.5rem;
 
         abbr {
